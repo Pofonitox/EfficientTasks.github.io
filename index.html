@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EfficientTasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EfficientTasks</h1>
+            <button id="addTaskBtn">Agregar Tarea</button>
+        </header>
+        <main>
+            <div class="task-input">
+                <input type="text" id="taskName" placeholder="Nombre de la Tarea">
+                <button id="saveTaskBtn">Guardar Tarea</button>
+                <button id="randomizeTasksBtn">Generar Horario Aleatorio</button>
+            </div>
+            <div class="task-list">
+                <h2>Tus Tareas</h2>
+                <ul id="taskList"></ul>
+            </div>
+            <div class="schedule">
+                <h2>Horario Semanal</h2>
+                <div id="scheduleGrid">
+                    <div class="day" id="lunes">
+                        <h3>Lunes</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="martes">
+                        <h3>Martes</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="miercoles">
+                        <h3>Miércoles</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="jueves">
+                        <h3>Jueves</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="viernes">
+                        <h3>Viernes</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="sabado">
+                        <h3>Sábado</h3>
+                        <ul></ul>
+                    </div>
+                    <div class="day" id="domingo">
+                        <h3>Domingo</h3>
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
